@@ -1,0 +1,10 @@
+const Room = require('/main')
+
+UserBookSchema.deleteMany({id: ''})
+if(err){
+  console.log(err);
+}
+else {
+
+    console.log("successful delete")
+}
